@@ -15,6 +15,7 @@
 		42FE16A322E091E900B074F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42FE16A222E091E900B074F2 /* Assets.xcassets */; };
 		42FE16A622E091E900B074F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42FE16A422E091E900B074F2 /* LaunchScreen.storyboard */; };
 		9BC7681E3EFAAB31B1D9BCF5 /* Pods_ChallengeFinalFoundations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B3565FD30BB3F56844726F3 /* Pods_ChallengeFinalFoundations.framework */; };
+		EF13A35C22E1FFFB002A4031 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF13A35B22E1FFFB002A4031 /* Login.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		7B3565FD30BB3F56844726F3 /* Pods_ChallengeFinalFoundations.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChallengeFinalFoundations.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9035F3F5B13358B9977BA9F9 /* Pods-ChallengeFinalFoundations.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChallengeFinalFoundations.debug.xcconfig"; path = "Target Support Files/Pods-ChallengeFinalFoundations/Pods-ChallengeFinalFoundations.debug.xcconfig"; sourceTree = "<group>"; };
 		D26269036320E6533EFC764B /* Pods-ChallengeFinalFoundations.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChallengeFinalFoundations.release.xcconfig"; path = "Target Support Files/Pods-ChallengeFinalFoundations/Pods-ChallengeFinalFoundations.release.xcconfig"; sourceTree = "<group>"; };
+		EF13A35B22E1FFFB002A4031 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				42FE169822E091E700B074F2 /* AppDelegate.swift */,
+				EF13A35B22E1FFFB002A4031 /* Login.storyboard */,
 				42FE169A22E091E700B074F2 /* ViewController.swift */,
 				42FE169C22E091E700B074F2 /* Main.storyboard */,
 				42FE16A222E091E900B074F2 /* Assets.xcassets */,
@@ -154,6 +157,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF13A35C22E1FFFB002A4031 /* Login.storyboard in Resources */,
 				42FE16A622E091E900B074F2 /* LaunchScreen.storyboard in Resources */,
 				4288EFE022E1FA35003B4D17 /* GoogleService-Info.plist in Resources */,
 				42FE16A322E091E900B074F2 /* Assets.xcassets in Resources */,
