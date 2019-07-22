@@ -3,20 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4288EFE022E1FA35003B4D17 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4288EFDF22E1FA35003B4D17 /* GoogleService-Info.plist */; };
 		42FE169922E091E700B074F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FE169822E091E700B074F2 /* AppDelegate.swift */; };
 		42FE169B22E091E700B074F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FE169A22E091E700B074F2 /* ViewController.swift */; };
 		42FE169E22E091E700B074F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42FE169C22E091E700B074F2 /* Main.storyboard */; };
 		42FE16A122E091E700B074F2 /* ChallengeFinalFoundations.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 42FE169F22E091E700B074F2 /* ChallengeFinalFoundations.xcdatamodeld */; };
 		42FE16A322E091E900B074F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42FE16A222E091E900B074F2 /* Assets.xcassets */; };
 		42FE16A622E091E900B074F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42FE16A422E091E900B074F2 /* LaunchScreen.storyboard */; };
-		C8A23E6E22E0A8DE000E98E5 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8A23E6D22E0A8DE000E98E5 /* Login.storyboard */; };
+		9BC7681E3EFAAB31B1D9BCF5 /* Pods_ChallengeFinalFoundations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B3565FD30BB3F56844726F3 /* Pods_ChallengeFinalFoundations.framework */; };
+		EF13A35C22E1FFFB002A4031 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF13A35B22E1FFFB002A4031 /* Login.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4288EFDF22E1FA35003B4D17 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		42FE169522E091E700B074F2 /* ChallengeFinalFoundations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChallengeFinalFoundations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42FE169822E091E700B074F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42FE169A22E091E700B074F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,7 +28,10 @@
 		42FE16A222E091E900B074F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42FE16A522E091E900B074F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		42FE16A722E091E900B074F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C8A23E6D22E0A8DE000E98E5 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		7B3565FD30BB3F56844726F3 /* Pods_ChallengeFinalFoundations.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChallengeFinalFoundations.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9035F3F5B13358B9977BA9F9 /* Pods-ChallengeFinalFoundations.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChallengeFinalFoundations.debug.xcconfig"; path = "Target Support Files/Pods-ChallengeFinalFoundations/Pods-ChallengeFinalFoundations.debug.xcconfig"; sourceTree = "<group>"; };
+		D26269036320E6533EFC764B /* Pods-ChallengeFinalFoundations.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChallengeFinalFoundations.release.xcconfig"; path = "Target Support Files/Pods-ChallengeFinalFoundations/Pods-ChallengeFinalFoundations.release.xcconfig"; sourceTree = "<group>"; };
+		EF13A35B22E1FFFB002A4031 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BC7681E3EFAAB31B1D9BCF5 /* Pods_ChallengeFinalFoundations.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +51,8 @@
 			children = (
 				42FE169722E091E700B074F2 /* ChallengeFinalFoundations */,
 				42FE169622E091E700B074F2 /* Products */,
+				602A7FA498C54AD270F79C02 /* Pods */,
+				B8112FCDD0AD55BADFE1C738 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,14 +69,33 @@
 			children = (
 				C8A23E6D22E0A8DE000E98E5 /* Login.storyboard */,
 				42FE169822E091E700B074F2 /* AppDelegate.swift */,
+				EF13A35B22E1FFFB002A4031 /* Login.storyboard */,
 				42FE169A22E091E700B074F2 /* ViewController.swift */,
 				42FE169C22E091E700B074F2 /* Main.storyboard */,
 				42FE16A222E091E900B074F2 /* Assets.xcassets */,
 				42FE16A422E091E900B074F2 /* LaunchScreen.storyboard */,
+				4288EFDF22E1FA35003B4D17 /* GoogleService-Info.plist */,
 				42FE16A722E091E900B074F2 /* Info.plist */,
 				42FE169F22E091E700B074F2 /* ChallengeFinalFoundations.xcdatamodeld */,
 			);
 			path = ChallengeFinalFoundations;
+			sourceTree = "<group>";
+		};
+		602A7FA498C54AD270F79C02 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9035F3F5B13358B9977BA9F9 /* Pods-ChallengeFinalFoundations.debug.xcconfig */,
+				D26269036320E6533EFC764B /* Pods-ChallengeFinalFoundations.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B8112FCDD0AD55BADFE1C738 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B3565FD30BB3F56844726F3 /* Pods_ChallengeFinalFoundations.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +105,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42FE16AA22E091E900B074F2 /* Build configuration list for PBXNativeTarget "ChallengeFinalFoundations" */;
 			buildPhases = (
+				4357AE8DDC2DF6A3B51E4B0F /* [CP] Check Pods Manifest.lock */,
 				42FE169122E091E700B074F2 /* Sources */,
 				42FE169222E091E700B074F2 /* Frameworks */,
 				42FE169322E091E700B074F2 /* Resources */,
+				20C70167165A9D2DC4D2FB36 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,14 +158,57 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8A23E6E22E0A8DE000E98E5 /* Login.storyboard in Resources */,
+				EF13A35C22E1FFFB002A4031 /* Login.storyboard in Resources */,
 				42FE16A622E091E900B074F2 /* LaunchScreen.storyboard in Resources */,
+				4288EFE022E1FA35003B4D17 /* GoogleService-Info.plist in Resources */,
 				42FE16A322E091E900B074F2 /* Assets.xcassets in Resources */,
 				42FE169E22E091E700B074F2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20C70167165A9D2DC4D2FB36 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChallengeFinalFoundations/Pods-ChallengeFinalFoundations-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChallengeFinalFoundations/Pods-ChallengeFinalFoundations-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChallengeFinalFoundations/Pods-ChallengeFinalFoundations-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4357AE8DDC2DF6A3B51E4B0F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChallengeFinalFoundations-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		42FE169122E091E700B074F2 /* Sources */ = {
@@ -288,6 +361,7 @@
 		};
 		42FE16AB22E091E900B074F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9035F3F5B13358B9977BA9F9 /* Pods-ChallengeFinalFoundations.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -305,6 +379,7 @@
 		};
 		42FE16AC22E091E900B074F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D26269036320E6533EFC764B /* Pods-ChallengeFinalFoundations.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
