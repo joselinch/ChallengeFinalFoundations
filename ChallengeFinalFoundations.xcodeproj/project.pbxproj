@@ -10,6 +10,14 @@
 		4230082422E8917300A86C27 /* SalaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4230082322E8917300A86C27 /* SalaViewController.swift */; };
 		4230082622E8919B00A86C27 /* FichaPersonagemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4230082522E8919B00A86C27 /* FichaPersonagemViewController.swift */; };
 		4230082A22E8964900A86C27 /* SalasPerson.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4230082922E8947B00A86C27 /* SalasPerson.storyboard */; };
+		08023BCC22E8990800355277 /* NPCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08023BCB22E8990800355277 /* NPCViewController.swift */; };
+		08023BCE22E89AD900355277 /* NormalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08023BCD22E89AD900355277 /* NormalViewController.swift */; };
+		08023BD222E89BB800355277 /* InimigoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08023BD122E89BB800355277 /* InimigoViewController.swift */; };
+		08023BD422E8A15000355277 /* npcNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08023BD322E8A15000355277 /* npcNavigationController.swift */; };
+		08023BDB22E8B81000355277 /* QuestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08023BDA22E8B81000355277 /* QuestViewController.swift */; };
+		08023BDD22E8BA9A00355277 /* HistoriaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08023BDC22E8BA9A00355277 /* HistoriaViewController.swift */; };
+		08023BDF22E9D82D00355277 /* MapaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08023BDE22E9D82D00355277 /* MapaViewController.swift */; };
+		08E9276122E5E57F00D4EAA1 /* NPC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08E9276022E5E57F00D4EAA1 /* NPC.storyboard */; };
 		4288EFE022E1FA35003B4D17 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4288EFDF22E1FA35003B4D17 /* GoogleService-Info.plist */; };
 		42C76A1F22EA12350095C2F7 /* EntradaSalaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C76A1E22EA12350095C2F7 /* EntradaSalaViewController.swift */; };
 		42C76A2122EA127E0095C2F7 /* CriacaoSalaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C76A2022EA127E0095C2F7 /* CriacaoSalaViewController.swift */; };
@@ -28,6 +36,14 @@
 		4230082322E8917300A86C27 /* SalaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalaViewController.swift; sourceTree = "<group>"; };
 		4230082522E8919B00A86C27 /* FichaPersonagemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FichaPersonagemViewController.swift; sourceTree = "<group>"; };
 		4230082922E8947B00A86C27 /* SalasPerson.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = SalasPerson.storyboard; path = ../SalasPerson.storyboard; sourceTree = "<group>"; };
+		08023BCB22E8990800355277 /* NPCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NPCViewController.swift; sourceTree = "<group>"; };
+		08023BCD22E89AD900355277 /* NormalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalViewController.swift; sourceTree = "<group>"; };
+		08023BD122E89BB800355277 /* InimigoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InimigoViewController.swift; sourceTree = "<group>"; };
+		08023BD322E8A15000355277 /* npcNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = npcNavigationController.swift; sourceTree = "<group>"; };
+		08023BDA22E8B81000355277 /* QuestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = QuestViewController.swift; path = ../QuestViewController.swift; sourceTree = "<group>"; };
+		08023BDC22E8BA9A00355277 /* HistoriaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoriaViewController.swift; sourceTree = "<group>"; };
+		08023BDE22E9D82D00355277 /* MapaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapaViewController.swift; sourceTree = "<group>"; };
+		08E9276022E5E57F00D4EAA1 /* NPC.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NPC.storyboard; sourceTree = "<group>"; };
 		4288EFDF22E1FA35003B4D17 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		42C76A1E22EA12350095C2F7 /* EntradaSalaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntradaSalaViewController.swift; sourceTree = "<group>"; };
 		42C76A2022EA127E0095C2F7 /* CriacaoSalaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CriacaoSalaViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +74,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08023BD522E8A16C00355277 /* NPCsController */ = {
+			isa = PBXGroup;
+			children = (
+				08023BCD22E89AD900355277 /* NormalViewController.swift */,
+				08023BD122E89BB800355277 /* InimigoViewController.swift */,
+				08023BCB22E8990800355277 /* NPCViewController.swift */,
+				08023BD322E8A15000355277 /* npcNavigationController.swift */,
+				08023BDC22E8BA9A00355277 /* HistoriaViewController.swift */,
+				08023BDA22E8B81000355277 /* QuestViewController.swift */,
+				08023BDE22E9D82D00355277 /* MapaViewController.swift */,
+			);
+			path = NPCsController;
+			sourceTree = "<group>";
+		};
 		42FE168C22E091E700B074F2 = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +112,8 @@
 				4230082922E8947B00A86C27 /* SalasPerson.storyboard */,
 				42C76A2022EA127E0095C2F7 /* CriacaoSalaViewController.swift */,
 				42C76A1E22EA12350095C2F7 /* EntradaSalaViewController.swift */,
+				08023BD522E8A16C00355277 /* NPCsController */,
+				08E9276022E5E57F00D4EAA1 /* NPC.storyboard */,
 				42FE169822E091E700B074F2 /* AppDelegate.swift */,
 				EF13A35B22E1FFFB002A4031 /* Login.storyboard */,
 				42FE169A22E091E700B074F2 /* ViewController.swift */,
@@ -177,6 +209,7 @@
 			files = (
 				4230082A22E8964900A86C27 /* SalasPerson.storyboard in Resources */,
 				EF13A35C22E1FFFB002A4031 /* Login.storyboard in Resources */,
+				08E9276122E5E57F00D4EAA1 /* NPC.storyboard in Resources */,
 				42FE16A622E091E900B074F2 /* LaunchScreen.storyboard in Resources */,
 				4288EFE022E1FA35003B4D17 /* GoogleService-Info.plist in Resources */,
 				42FE16A322E091E900B074F2 /* Assets.xcassets in Resources */,
@@ -234,7 +267,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				42FE169B22E091E700B074F2 /* ViewController.swift in Sources */,
+				08023BDD22E8BA9A00355277 /* HistoriaViewController.swift in Sources */,
 				42FE16A122E091E700B074F2 /* ChallengeFinalFoundations.xcdatamodeld in Sources */,
+				08023BCC22E8990800355277 /* NPCViewController.swift in Sources */,
+				08023BD222E89BB800355277 /* InimigoViewController.swift in Sources */,
+				08023BD422E8A15000355277 /* npcNavigationController.swift in Sources */,
+				08023BDB22E8B81000355277 /* QuestViewController.swift in Sources */,
+				08023BDF22E9D82D00355277 /* MapaViewController.swift in Sources */,
+				08023BCE22E89AD900355277 /* NormalViewController.swift in Sources */,
 				42FE169922E091E700B074F2 /* AppDelegate.swift in Sources */,
 				42C76A1F22EA12350095C2F7 /* EntradaSalaViewController.swift in Sources */,
 				42C76A2122EA127E0095C2F7 /* CriacaoSalaViewController.swift in Sources */,
@@ -388,6 +428,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78JXU4VR26;
 				INFOPLIST_FILE = ChallengeFinalFoundations/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -406,6 +447,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78JXU4VR26;
 				INFOPLIST_FILE = ChallengeFinalFoundations/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
