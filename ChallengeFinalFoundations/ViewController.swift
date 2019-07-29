@@ -7,30 +7,22 @@
 //
 
 import UIKit
-import Firebase
-
-
+import FirebaseDatabase
+var ref = Database.database().reference()
 class ViewController: UIViewController {
+    @IBOutlet weak var nomeText: UITextField!
+    @IBOutlet weak var historiaText: UITextView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //var user = "admin"
-        //var senha = "admin"
-        
-        
-        
+
+        // Do any additional setup after loading the view.
     }
-//
-//    @IBAction func userCadastrar(_ sender: Any) {
-//        print ("Cadastro realizado")
-//    }
-//    @IBAction func userLogin(_ sender: Any) {
-//        print ("Login")
-//    }
-//
-//    @IBAction func userNovo(_ sender: Any) {
-//        print("Novo usuario")
-//    }
-//}
-//
+    @IBAction func enviarFunc(_ sender: Any) {
+    }
+    @IBAction func nomeFunc(_ sender: Any) {
+    ref.childByAutoId()
+    }
+    
+
 }
