@@ -7,14 +7,30 @@
 //
 
 import UIKit
+import Firebase
+
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        //var user = "admin"
+        //var senha = "admin"
+        
+        
+        
     }
-
-
+//
+//    @IBAction func userCadastrar(_ sender: Any) {
+//        print ("Cadastro realizado")
+//    }
+//    @IBAction func userLogin(_ sender: Any) {
+//        print ("Login")
+//    }
+//
+//    @IBAction func userNovo(_ sender: Any) {
+//        print("Novo usuario")
+//    }
+//}
+//
 }
-

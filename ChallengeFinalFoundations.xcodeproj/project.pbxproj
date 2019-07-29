@@ -16,6 +16,8 @@
 		42FE16A622E091E900B074F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42FE16A422E091E900B074F2 /* LaunchScreen.storyboard */; };
 		9BC7681E3EFAAB31B1D9BCF5 /* Pods_ChallengeFinalFoundations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B3565FD30BB3F56844726F3 /* Pods_ChallengeFinalFoundations.framework */; };
 		EF13A35C22E1FFFB002A4031 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF13A35B22E1FFFB002A4031 /* Login.storyboard */; };
+		EF366F9422E75035007DD888 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF366F9322E75035007DD888 /* LoginViewController.swift */; };
+		EFB5D6CD22E892B500441BCE /* CadastroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB5D6CC22E892B500441BCE /* CadastroViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		9035F3F5B13358B9977BA9F9 /* Pods-ChallengeFinalFoundations.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChallengeFinalFoundations.debug.xcconfig"; path = "Target Support Files/Pods-ChallengeFinalFoundations/Pods-ChallengeFinalFoundations.debug.xcconfig"; sourceTree = "<group>"; };
 		D26269036320E6533EFC764B /* Pods-ChallengeFinalFoundations.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChallengeFinalFoundations.release.xcconfig"; path = "Target Support Files/Pods-ChallengeFinalFoundations/Pods-ChallengeFinalFoundations.release.xcconfig"; sourceTree = "<group>"; };
 		EF13A35B22E1FFFB002A4031 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		EF366F9322E75035007DD888 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = /Users/bianca.pasetto/Documents/ChallengeFinalFoundations/ChallengeFinalFoundations/LoginViewController.swift; sourceTree = "<absolute>"; };
+		EFB5D6CC22E892B500441BCE /* CadastroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,7 @@
 		42FE169722E091E700B074F2 /* ChallengeFinalFoundations */ = {
 			isa = PBXGroup;
 			children = (
+				EF366F9322E75035007DD888 /* LoginViewController.swift */,
 				42FE169822E091E700B074F2 /* AppDelegate.swift */,
 				EF13A35B22E1FFFB002A4031 /* Login.storyboard */,
 				42FE169A22E091E700B074F2 /* ViewController.swift */,
@@ -76,6 +81,7 @@
 				4288EFDF22E1FA35003B4D17 /* GoogleService-Info.plist */,
 				42FE16A722E091E900B074F2 /* Info.plist */,
 				42FE169F22E091E700B074F2 /* ChallengeFinalFoundations.xcdatamodeld */,
+				EFB5D6CC22E892B500441BCE /* CadastroViewController.swift */,
 			);
 			path = ChallengeFinalFoundations;
 			sourceTree = "<group>";
@@ -109,6 +115,7 @@
 				42FE169222E091E700B074F2 /* Frameworks */,
 				42FE169322E091E700B074F2 /* Resources */,
 				20C70167165A9D2DC4D2FB36 /* [CP] Embed Pods Frameworks */,
+				67870B4AC98D177E4981E08C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +214,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		67870B4AC98D177E4981E08C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChallengeFinalFoundations/Pods-ChallengeFinalFoundations-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChallengeFinalFoundations/Pods-ChallengeFinalFoundations-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChallengeFinalFoundations/Pods-ChallengeFinalFoundations-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -214,8 +238,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF366F9422E75035007DD888 /* LoginViewController.swift in Sources */,
 				42FE169B22E091E700B074F2 /* ViewController.swift in Sources */,
 				42FE16A122E091E700B074F2 /* ChallengeFinalFoundations.xcdatamodeld in Sources */,
+				EFB5D6CD22E892B500441BCE /* CadastroViewController.swift in Sources */,
 				42FE169922E091E700B074F2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
