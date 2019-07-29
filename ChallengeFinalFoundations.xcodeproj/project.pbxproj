@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4230082422E8917300A86C27 /* SalaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4230082322E8917300A86C27 /* SalaViewController.swift */; };
+		4230082622E8919B00A86C27 /* FichaPersonagemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4230082522E8919B00A86C27 /* FichaPersonagemViewController.swift */; };
+		4230082A22E8964900A86C27 /* SalasPerson.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4230082922E8947B00A86C27 /* SalasPerson.storyboard */; };
 		4288EFE022E1FA35003B4D17 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4288EFDF22E1FA35003B4D17 /* GoogleService-Info.plist */; };
+		42C76A1F22EA12350095C2F7 /* EntradaSalaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C76A1E22EA12350095C2F7 /* EntradaSalaViewController.swift */; };
+		42C76A2122EA127E0095C2F7 /* CriacaoSalaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C76A2022EA127E0095C2F7 /* CriacaoSalaViewController.swift */; };
+		42EB23F022E9CCBA00473C4E /* VisaoPersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EB23EF22E9CCBA00473C4E /* VisaoPersViewController.swift */; };
 		42FE169922E091E700B074F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FE169822E091E700B074F2 /* AppDelegate.swift */; };
 		42FE169B22E091E700B074F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FE169A22E091E700B074F2 /* ViewController.swift */; };
 		42FE169E22E091E700B074F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42FE169C22E091E700B074F2 /* Main.storyboard */; };
@@ -19,7 +25,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4230082322E8917300A86C27 /* SalaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalaViewController.swift; sourceTree = "<group>"; };
+		4230082522E8919B00A86C27 /* FichaPersonagemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FichaPersonagemViewController.swift; sourceTree = "<group>"; };
+		4230082922E8947B00A86C27 /* SalasPerson.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = SalasPerson.storyboard; path = ../SalasPerson.storyboard; sourceTree = "<group>"; };
 		4288EFDF22E1FA35003B4D17 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		42C76A1E22EA12350095C2F7 /* EntradaSalaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntradaSalaViewController.swift; sourceTree = "<group>"; };
+		42C76A2022EA127E0095C2F7 /* CriacaoSalaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CriacaoSalaViewController.swift; sourceTree = "<group>"; };
+		42EB23EF22E9CCBA00473C4E /* VisaoPersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisaoPersViewController.swift; sourceTree = "<group>"; };
 		42FE169522E091E700B074F2 /* ChallengeFinalFoundations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChallengeFinalFoundations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42FE169822E091E700B074F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42FE169A22E091E700B074F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -67,10 +79,16 @@
 		42FE169722E091E700B074F2 /* ChallengeFinalFoundations */ = {
 			isa = PBXGroup;
 			children = (
+				4230082922E8947B00A86C27 /* SalasPerson.storyboard */,
+				42C76A2022EA127E0095C2F7 /* CriacaoSalaViewController.swift */,
+				42C76A1E22EA12350095C2F7 /* EntradaSalaViewController.swift */,
 				42FE169822E091E700B074F2 /* AppDelegate.swift */,
 				EF13A35B22E1FFFB002A4031 /* Login.storyboard */,
 				42FE169A22E091E700B074F2 /* ViewController.swift */,
 				42FE169C22E091E700B074F2 /* Main.storyboard */,
+				4230082322E8917300A86C27 /* SalaViewController.swift */,
+				4230082522E8919B00A86C27 /* FichaPersonagemViewController.swift */,
+				42EB23EF22E9CCBA00473C4E /* VisaoPersViewController.swift */,
 				42FE16A222E091E900B074F2 /* Assets.xcassets */,
 				42FE16A422E091E900B074F2 /* LaunchScreen.storyboard */,
 				4288EFDF22E1FA35003B4D17 /* GoogleService-Info.plist */,
@@ -157,6 +175,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4230082A22E8964900A86C27 /* SalasPerson.storyboard in Resources */,
 				EF13A35C22E1FFFB002A4031 /* Login.storyboard in Resources */,
 				42FE16A622E091E900B074F2 /* LaunchScreen.storyboard in Resources */,
 				4288EFE022E1FA35003B4D17 /* GoogleService-Info.plist in Resources */,
@@ -217,6 +236,11 @@
 				42FE169B22E091E700B074F2 /* ViewController.swift in Sources */,
 				42FE16A122E091E700B074F2 /* ChallengeFinalFoundations.xcdatamodeld in Sources */,
 				42FE169922E091E700B074F2 /* AppDelegate.swift in Sources */,
+				42C76A1F22EA12350095C2F7 /* EntradaSalaViewController.swift in Sources */,
+				42C76A2122EA127E0095C2F7 /* CriacaoSalaViewController.swift in Sources */,
+				4230082622E8919B00A86C27 /* FichaPersonagemViewController.swift in Sources */,
+				4230082422E8917300A86C27 /* SalaViewController.swift in Sources */,
+				42EB23F022E9CCBA00473C4E /* VisaoPersViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
