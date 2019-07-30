@@ -9,5 +9,10 @@ target 'ChallengeFinalFoundations' do
 
   pod 'Firebase/Core'
   pod 'Firebase/Database'
-
+  pod 'Firebase/Auth'
+  pod 'Firebase/Analytics'
+  pod 'GoogleSignIn'
+  
+  
+  
 end

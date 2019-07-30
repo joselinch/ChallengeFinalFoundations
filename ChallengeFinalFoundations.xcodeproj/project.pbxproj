@@ -7,7 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08023BCC22E8990800355277 /* NPCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08023BCB22E8990800355277 /* NPCViewController.swift */; };
+		08023BCE22E89AD900355277 /* NormalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08023BCD22E89AD900355277 /* NormalViewController.swift */; };
+		08023BD222E89BB800355277 /* InimigoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08023BD122E89BB800355277 /* InimigoViewController.swift */; };
+		08023BD422E8A15000355277 /* npcNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08023BD322E8A15000355277 /* npcNavigationController.swift */; };
+		08023BDB22E8B81000355277 /* QuestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08023BDA22E8B81000355277 /* QuestViewController.swift */; };
+		08023BDD22E8BA9A00355277 /* HistoriaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08023BDC22E8BA9A00355277 /* HistoriaViewController.swift */; };
+		08023BDF22E9D82D00355277 /* MapaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08023BDE22E9D82D00355277 /* MapaViewController.swift */; };
+		08E9276122E5E57F00D4EAA1 /* NPC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08E9276022E5E57F00D4EAA1 /* NPC.storyboard */; };
+		4230082422E8917300A86C27 /* SalaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4230082322E8917300A86C27 /* SalaViewController.swift */; };
+		4230082622E8919B00A86C27 /* FichaPersonagemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4230082522E8919B00A86C27 /* FichaPersonagemViewController.swift */; };
+		4230082A22E8964900A86C27 /* SalasPerson.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4230082922E8947B00A86C27 /* SalasPerson.storyboard */; };
 		4288EFE022E1FA35003B4D17 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4288EFDF22E1FA35003B4D17 /* GoogleService-Info.plist */; };
+		42C76A1F22EA12350095C2F7 /* EntradaSalaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C76A1E22EA12350095C2F7 /* EntradaSalaViewController.swift */; };
+		42C76A2122EA127E0095C2F7 /* CriacaoSalaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C76A2022EA127E0095C2F7 /* CriacaoSalaViewController.swift */; };
+		42EB23F022E9CCBA00473C4E /* VisaoPersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EB23EF22E9CCBA00473C4E /* VisaoPersViewController.swift */; };
 		42FE169922E091E700B074F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FE169822E091E700B074F2 /* AppDelegate.swift */; };
 		42FE169B22E091E700B074F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FE169A22E091E700B074F2 /* ViewController.swift */; };
 		42FE169E22E091E700B074F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42FE169C22E091E700B074F2 /* Main.storyboard */; };
@@ -15,16 +29,32 @@
 		42FE16A322E091E900B074F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42FE16A222E091E900B074F2 /* Assets.xcassets */; };
 		42FE16A622E091E900B074F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42FE16A422E091E900B074F2 /* LaunchScreen.storyboard */; };
 		9BC7681E3EFAAB31B1D9BCF5 /* Pods_ChallengeFinalFoundations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B3565FD30BB3F56844726F3 /* Pods_ChallengeFinalFoundations.framework */; };
+		C831801C22EF396C00F86482 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C831801B22EF396C00F86482 /* LoginViewController.swift */; };
 		C86FC26B22E7423000EDD10B /* SalasHomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86FC26A22E7423000EDD10B /* SalasHomeTableViewCell.swift */; };
 		C878845422EF29C200989A60 /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = C878845322EF29C200989A60 /* Favorites.swift */; };
 		C878845622EF2C2500989A60 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C878845522EF2C2500989A60 /* FavoritesViewController.swift */; };
 		C8B9AD5322E9E59B006E7882 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B9AD5222E9E59B006E7882 /* UserProfile.swift */; };
 		C8D93DF522E5F03B008DE7E6 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8D93DF322E5F03B008DE7E6 /* Home.storyboard */; };
 		EF13A35C22E1FFFB002A4031 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF13A35B22E1FFFB002A4031 /* Login.storyboard */; };
+		EFB5D6CD22E892B500441BCE /* CadastroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB5D6CC22E892B500441BCE /* CadastroViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		08023BCB22E8990800355277 /* NPCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NPCViewController.swift; sourceTree = "<group>"; };
+		08023BCD22E89AD900355277 /* NormalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalViewController.swift; sourceTree = "<group>"; };
+		08023BD122E89BB800355277 /* InimigoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InimigoViewController.swift; sourceTree = "<group>"; };
+		08023BD322E8A15000355277 /* npcNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = npcNavigationController.swift; sourceTree = "<group>"; };
+		08023BDA22E8B81000355277 /* QuestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = QuestViewController.swift; path = ../QuestViewController.swift; sourceTree = "<group>"; };
+		08023BDC22E8BA9A00355277 /* HistoriaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoriaViewController.swift; sourceTree = "<group>"; };
+		08023BDE22E9D82D00355277 /* MapaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapaViewController.swift; sourceTree = "<group>"; };
+		08E9276022E5E57F00D4EAA1 /* NPC.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NPC.storyboard; sourceTree = "<group>"; };
+		4230082322E8917300A86C27 /* SalaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalaViewController.swift; sourceTree = "<group>"; };
+		4230082522E8919B00A86C27 /* FichaPersonagemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FichaPersonagemViewController.swift; sourceTree = "<group>"; };
+		4230082922E8947B00A86C27 /* SalasPerson.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = SalasPerson.storyboard; path = ../SalasPerson.storyboard; sourceTree = "<group>"; };
 		4288EFDF22E1FA35003B4D17 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		42C76A1E22EA12350095C2F7 /* EntradaSalaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntradaSalaViewController.swift; sourceTree = "<group>"; };
+		42C76A2022EA127E0095C2F7 /* CriacaoSalaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CriacaoSalaViewController.swift; sourceTree = "<group>"; };
+		42EB23EF22E9CCBA00473C4E /* VisaoPersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisaoPersViewController.swift; sourceTree = "<group>"; };
 		42FE169522E091E700B074F2 /* ChallengeFinalFoundations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChallengeFinalFoundations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42FE169822E091E700B074F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42FE169A22E091E700B074F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +65,7 @@
 		42FE16A722E091E900B074F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B3565FD30BB3F56844726F3 /* Pods_ChallengeFinalFoundations.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChallengeFinalFoundations.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9035F3F5B13358B9977BA9F9 /* Pods-ChallengeFinalFoundations.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChallengeFinalFoundations.debug.xcconfig"; path = "Target Support Files/Pods-ChallengeFinalFoundations/Pods-ChallengeFinalFoundations.debug.xcconfig"; sourceTree = "<group>"; };
+		C831801B22EF396C00F86482 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ../../../Downloads/LoginViewController.swift; sourceTree = "<group>"; };
 		C86FC26A22E7423000EDD10B /* SalasHomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalasHomeTableViewCell.swift; sourceTree = "<group>"; };
 		C878845322EF29C200989A60 /* Favorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorites.swift; sourceTree = "<group>"; };
 		C878845522EF2C2500989A60 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
@@ -42,6 +73,7 @@
 		C8D93DF422E5F03B008DE7E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ChallengeFinalFoundations/Base.lproj/Home.storyboard; sourceTree = "<group>"; };
 		D26269036320E6533EFC764B /* Pods-ChallengeFinalFoundations.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChallengeFinalFoundations.release.xcconfig"; path = "Target Support Files/Pods-ChallengeFinalFoundations/Pods-ChallengeFinalFoundations.release.xcconfig"; sourceTree = "<group>"; };
 		EF13A35B22E1FFFB002A4031 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		EFB5D6CC22E892B500441BCE /* CadastroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +88,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08023BD522E8A16C00355277 /* NPCsController */ = {
+			isa = PBXGroup;
+			children = (
+				08023BCD22E89AD900355277 /* NormalViewController.swift */,
+				08023BD122E89BB800355277 /* InimigoViewController.swift */,
+				08023BCB22E8990800355277 /* NPCViewController.swift */,
+				08023BD322E8A15000355277 /* npcNavigationController.swift */,
+				08023BDC22E8BA9A00355277 /* HistoriaViewController.swift */,
+				08023BDA22E8B81000355277 /* QuestViewController.swift */,
+				08023BDE22E9D82D00355277 /* MapaViewController.swift */,
+			);
+			path = NPCsController;
+			sourceTree = "<group>";
+		};
 		42FE168C22E091E700B074F2 = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +123,12 @@
 		42FE169722E091E700B074F2 /* ChallengeFinalFoundations */ = {
 			isa = PBXGroup;
 			children = (
+				C831801B22EF396C00F86482 /* LoginViewController.swift */,
+				4230082922E8947B00A86C27 /* SalasPerson.storyboard */,
+				42C76A2022EA127E0095C2F7 /* CriacaoSalaViewController.swift */,
+				42C76A1E22EA12350095C2F7 /* EntradaSalaViewController.swift */,
+				08023BD522E8A16C00355277 /* NPCsController */,
+				08E9276022E5E57F00D4EAA1 /* NPC.storyboard */,
 				42FE169822E091E700B074F2 /* AppDelegate.swift */,
 				EF13A35B22E1FFFB002A4031 /* Login.storyboard */,
 				C8D93DF322E5F03B008DE7E6 /* Home.storyboard */,
@@ -86,11 +138,15 @@
 				C86FC26A22E7423000EDD10B /* SalasHomeTableViewCell.swift */,
 				42FE169A22E091E700B074F2 /* ViewController.swift */,
 				42FE169C22E091E700B074F2 /* Main.storyboard */,
+				4230082322E8917300A86C27 /* SalaViewController.swift */,
+				4230082522E8919B00A86C27 /* FichaPersonagemViewController.swift */,
+				42EB23EF22E9CCBA00473C4E /* VisaoPersViewController.swift */,
 				42FE16A222E091E900B074F2 /* Assets.xcassets */,
 				42FE16A422E091E900B074F2 /* LaunchScreen.storyboard */,
 				4288EFDF22E1FA35003B4D17 /* GoogleService-Info.plist */,
 				42FE16A722E091E900B074F2 /* Info.plist */,
 				42FE169F22E091E700B074F2 /* ChallengeFinalFoundations.xcdatamodeld */,
+				EFB5D6CC22E892B500441BCE /* CadastroViewController.swift */,
 			);
 			path = ChallengeFinalFoundations;
 			sourceTree = "<group>";
@@ -124,6 +180,7 @@
 				42FE169222E091E700B074F2 /* Frameworks */,
 				42FE169322E091E700B074F2 /* Resources */,
 				20C70167165A9D2DC4D2FB36 /* [CP] Embed Pods Frameworks */,
+				67870B4AC98D177E4981E08C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -172,7 +229,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4230082A22E8964900A86C27 /* SalasPerson.storyboard in Resources */,
 				EF13A35C22E1FFFB002A4031 /* Login.storyboard in Resources */,
+				08E9276122E5E57F00D4EAA1 /* NPC.storyboard in Resources */,
 				42FE16A622E091E900B074F2 /* LaunchScreen.storyboard in Resources */,
 				4288EFE022E1FA35003B4D17 /* GoogleService-Info.plist in Resources */,
 				C8D93DF522E5F03B008DE7E6 /* Home.storyboard in Resources */,
@@ -223,6 +282,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		67870B4AC98D177E4981E08C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChallengeFinalFoundations/Pods-ChallengeFinalFoundations-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChallengeFinalFoundations/Pods-ChallengeFinalFoundations-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChallengeFinalFoundations/Pods-ChallengeFinalFoundations-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -231,12 +307,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				42FE169B22E091E700B074F2 /* ViewController.swift in Sources */,
+				08023BDD22E8BA9A00355277 /* HistoriaViewController.swift in Sources */,
+				C831801C22EF396C00F86482 /* LoginViewController.swift in Sources */,
 				42FE16A122E091E700B074F2 /* ChallengeFinalFoundations.xcdatamodeld in Sources */,
 				C878845622EF2C2500989A60 /* FavoritesViewController.swift in Sources */,
 				C8B9AD5322E9E59B006E7882 /* UserProfile.swift in Sources */,
 				C878845422EF29C200989A60 /* Favorites.swift in Sources */,
 				42FE169922E091E700B074F2 /* AppDelegate.swift in Sources */,
 				C86FC26B22E7423000EDD10B /* SalasHomeTableViewCell.swift in Sources */,
+				EFB5D6CD22E892B500441BCE /* CadastroViewController.swift in Sources */,
+				08023BCC22E8990800355277 /* NPCViewController.swift in Sources */,
+				08023BD222E89BB800355277 /* InimigoViewController.swift in Sources */,
+				08023BD422E8A15000355277 /* npcNavigationController.swift in Sources */,
+				08023BDB22E8B81000355277 /* QuestViewController.swift in Sources */,
+				08023BDF22E9D82D00355277 /* MapaViewController.swift in Sources */,
+				08023BCE22E89AD900355277 /* NormalViewController.swift in Sources */,
+				42FE169922E091E700B074F2 /* AppDelegate.swift in Sources */,
+				42C76A1F22EA12350095C2F7 /* EntradaSalaViewController.swift in Sources */,
+				42C76A2122EA127E0095C2F7 /* CriacaoSalaViewController.swift in Sources */,
+				4230082622E8919B00A86C27 /* FichaPersonagemViewController.swift in Sources */,
+				4230082422E8917300A86C27 /* SalaViewController.swift in Sources */,
+				42EB23F022E9CCBA00473C4E /* VisaoPersViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

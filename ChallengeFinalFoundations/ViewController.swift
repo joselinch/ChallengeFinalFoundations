@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import Firebase
+
+var ref = Database.database().reference()
 
 struct Home {
     var imagem: UIImage
