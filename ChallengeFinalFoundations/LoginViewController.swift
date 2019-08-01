@@ -36,6 +36,16 @@ class LoginViewController: UIViewController {
                 print(error)
             } else if let result = result {
                 print(result)
+                guard let window = UIApplication.shared.keyWindow else {
+                    fatalError("There should be a window")
+                }
+                guard let rootViewController = window.rootViewController else {
+                    fatalError("There should be a rootViewController")
+                }
+                let homeStoryboard = UIStoryboard(name: "Home", bundle: nil)
+                let homeViewController = homeStoryboard.instantiateViewController(withIdentifier: "InitialHomeTabController")
+                
+                UIView.transition(with: window, duration: 0.3, options: .allowAnimatedContent, animations: {window.rootViewController = homeViewController}, completion: {completed in})
             }
             
         }

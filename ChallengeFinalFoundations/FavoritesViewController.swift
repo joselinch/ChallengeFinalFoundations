@@ -8,51 +8,61 @@
 
 import UIKit
 
-struct  favorites {
-    var nameFavorites : String
-    
-    
+class SalasFav{
+    var nomeSala: String
+    var isMestre: String
+    init(nomeSalaText: String, isMestreText: String){
+        nomeSala = nomeSalaText
+        isMestre = isMestreText
+    }
 }
-
 class FavoritesViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
-    
-    
-    let favoritos =  [
-    favorites(nameFavorites: "Sala 1")
-    ]
-    
-    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-    return  favoritos.count
+        return salas.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let FavoritesCell = tableView.dequeueReusableCell(withIdentifier: "favoritecell", for: indexPath) as! Favorites
-        let favorite = favoritos[indexPath.row]
-        FavoritesCell.NameFavorites.text = favorite.nameFavorites
-//        let salasFavorites = indexPath.row
-//        FavoritesCell.NameFavorites.text = salasFavorites.map{ "\($0)" }.joined(separator: ", ")
-        return FavoritesCell
-        
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "favoriteCell", for: indexPath) as? Favorites else { fatalError() }
+        cell.nomeFavoritos.text = salas[indexPath.row].nomeSala
+        cell.mestreFavoritos.text = salas[indexPath.row].isMestre
+        return cell
     }
-    
-    @IBOutlet weak var Favorites: UITableView!
+    @IBOutlet weak var tableViewFavorites: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        tableViewFavorites.delegate = self
+        tableViewFavorites.dataSource = self
+        loadSalas()
+        DispatchQueue.main.async {
+            self.tableViewFavorites.reloadData()
+        }
         // Do any additional setup after loading the view.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    var salas = [SalasFav]()
+    func loadSalas() {
+        ref.child("Usuarios").child("juze").child("salas").observe(.childAdded) { (snapshot) in
+            print("XYZ")
+            if let dict = snapshot.value as? [String: Any]{
+                let nomeSalaText = dict["nome"] as! String
+                let isMestreText = dict["mestre"] as! String
+                let sala = SalasFav(nomeSalaText: nomeSalaText, isMestreText: isMestreText)
+                self.salas.append(sala)
+                DispatchQueue.main.async {
+                    self.tableViewFavorites.reloadData()
+                }
+            }
+        }
+}
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        _ = salas[indexPath.row]
+        tableView.deselectRow(at: indexPath, animated: true)
+        performSegue(withIdentifier: "favoritosSegue", sender: indexPath)
     }
-    */
-
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let nextVC = segue.destination as? EntradaSalaViewController, let indexPath = sender as? IndexPath {
+            nextVC.room = salas[indexPath.row]
+        }
+    }
 }

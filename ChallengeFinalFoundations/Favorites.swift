@@ -9,7 +9,9 @@
 import UIKit
 
 class Favorites: UITableViewCell {
-    @IBOutlet weak var NameFavorites: UILabel!
+    @IBOutlet weak var nomeFavoritos: UILabel!
+    @IBOutlet weak var mestreFavoritos: UILabel!
+    
     
     override func awakeFromNib() {
         super.awakeFromNib()

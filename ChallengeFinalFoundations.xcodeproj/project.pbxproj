@@ -18,18 +18,34 @@
 		4230082422E8917300A86C27 /* SalaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4230082322E8917300A86C27 /* SalaViewController.swift */; };
 		4230082622E8919B00A86C27 /* FichaPersonagemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4230082522E8919B00A86C27 /* FichaPersonagemViewController.swift */; };
 		4230082A22E8964900A86C27 /* SalasPerson.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4230082922E8947B00A86C27 /* SalasPerson.storyboard */; };
+		424C623E22F0AD4500A1E4F4 /* PersonagensViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424C623D22F0AD4500A1E4F4 /* PersonagensViewController.swift */; };
+		424F2DF122F072F9006F092B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424F2DF022F072F9006F092B /* LoginViewController.swift */; };
+		4288B59322F1B29F005A2F66 /* SalasUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4288B59222F1B29F005A2F66 /* SalasUserViewController.swift */; };
+		4288B59522F1B2B6005A2F66 /* SalasUserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4288B59422F1B2B6005A2F66 /* SalasUserTableViewCell.swift */; };
+		4288B59822F20D72005A2F66 /* PersonagensJogoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4288B59722F20D72005A2F66 /* PersonagensJogoTableViewCell.swift */; };
+		4288B59A22F20E75005A2F66 /* PersonagemJogoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4288B59922F20E75005A2F66 /* PersonagemJogoViewController.swift */; };
+		4288B59B22F21198005A2F66 /* Jogabilidade.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4288B59622F20662005A2F66 /* Jogabilidade.storyboard */; };
+		4288B59D22F21503005A2F66 /* JogabilidadeInicialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4288B59C22F21503005A2F66 /* JogabilidadeInicialViewController.swift */; };
 		4288EFE022E1FA35003B4D17 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4288EFDF22E1FA35003B4D17 /* GoogleService-Info.plist */; };
+		42B6B40622F0ADFA008CFF3F /* PersonagensTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B6B40522F0ADFA008CFF3F /* PersonagensTableViewCell.swift */; };
 		42C76A1F22EA12350095C2F7 /* EntradaSalaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C76A1E22EA12350095C2F7 /* EntradaSalaViewController.swift */; };
 		42C76A2122EA127E0095C2F7 /* CriacaoSalaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C76A2022EA127E0095C2F7 /* CriacaoSalaViewController.swift */; };
 		42EB23F022E9CCBA00473C4E /* VisaoPersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EB23EF22E9CCBA00473C4E /* VisaoPersViewController.swift */; };
+		42F793B322F3037900AAE4D5 /* LogJogUsuarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F793B222F3037900AAE4D5 /* LogJogUsuarioViewController.swift */; };
+		42F793B522F3039200AAE4D5 /* LogJogTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F793B422F3039200AAE4D5 /* LogJogTableViewCell.swift */; };
+		42F793B722F3121D00AAE4D5 /* PersonagensMestreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F793B622F3121D00AAE4D5 /* PersonagensMestreTableViewCell.swift */; };
+		42F793B922F3125400AAE4D5 /* PersonagensMestreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F793B822F3125400AAE4D5 /* PersonagensMestreViewController.swift */; };
+		42F793BB22F3199100AAE4D5 /* HistoricoMestreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F793BA22F3199100AAE4D5 /* HistoricoMestreViewController.swift */; };
+		42F793BD22F319E500AAE4D5 /* HistoricoMestreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F793BC22F319E500AAE4D5 /* HistoricoMestreTableViewCell.swift */; };
+		42F793BF22F325F800AAE4D5 /* MestrePrincipalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F793BE22F325F800AAE4D5 /* MestrePrincipalViewController.swift */; };
+		42F793C122F3274800AAE4D5 /* MestrePrincipalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F793C022F3274800AAE4D5 /* MestrePrincipalTableViewCell.swift */; };
 		42FE169922E091E700B074F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FE169822E091E700B074F2 /* AppDelegate.swift */; };
 		42FE169B22E091E700B074F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FE169A22E091E700B074F2 /* ViewController.swift */; };
 		42FE169E22E091E700B074F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42FE169C22E091E700B074F2 /* Main.storyboard */; };
 		42FE16A122E091E700B074F2 /* ChallengeFinalFoundations.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 42FE169F22E091E700B074F2 /* ChallengeFinalFoundations.xcdatamodeld */; };
 		42FE16A322E091E900B074F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42FE16A222E091E900B074F2 /* Assets.xcassets */; };
 		42FE16A622E091E900B074F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42FE16A422E091E900B074F2 /* LaunchScreen.storyboard */; };
-		9BC7681E3EFAAB31B1D9BCF5 /* Pods_ChallengeFinalFoundations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B3565FD30BB3F56844726F3 /* Pods_ChallengeFinalFoundations.framework */; };
-		C831801C22EF396C00F86482 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C831801B22EF396C00F86482 /* LoginViewController.swift */; };
+		48068EEE98CB43D4FB774911 /* Pods_ChallengeFinalFoundations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3923B3A3BDEE136E283C8B9 /* Pods_ChallengeFinalFoundations.framework */; };
 		C86FC26B22E7423000EDD10B /* SalasHomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86FC26A22E7423000EDD10B /* SalasHomeTableViewCell.swift */; };
 		C878845422EF29C200989A60 /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = C878845322EF29C200989A60 /* Favorites.swift */; };
 		C878845622EF2C2500989A60 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C878845522EF2C2500989A60 /* FavoritesViewController.swift */; };
@@ -51,10 +67,27 @@
 		4230082322E8917300A86C27 /* SalaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalaViewController.swift; sourceTree = "<group>"; };
 		4230082522E8919B00A86C27 /* FichaPersonagemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FichaPersonagemViewController.swift; sourceTree = "<group>"; };
 		4230082922E8947B00A86C27 /* SalasPerson.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = SalasPerson.storyboard; path = ../SalasPerson.storyboard; sourceTree = "<group>"; };
+		424C623D22F0AD4500A1E4F4 /* PersonagensViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonagensViewController.swift; sourceTree = "<group>"; };
+		424F2DF022F072F9006F092B /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4288B59222F1B29F005A2F66 /* SalasUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalasUserViewController.swift; sourceTree = "<group>"; };
+		4288B59422F1B2B6005A2F66 /* SalasUserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalasUserTableViewCell.swift; sourceTree = "<group>"; };
+		4288B59622F20662005A2F66 /* Jogabilidade.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Jogabilidade.storyboard; path = /Users/jose.burmann/Documents/ChallengeFinalFoundations/ChallengeFinalFoundations/Jogabilidade.storyboard; sourceTree = "<absolute>"; };
+		4288B59722F20D72005A2F66 /* PersonagensJogoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonagensJogoTableViewCell.swift; sourceTree = "<group>"; };
+		4288B59922F20E75005A2F66 /* PersonagemJogoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonagemJogoViewController.swift; sourceTree = "<group>"; };
+		4288B59C22F21503005A2F66 /* JogabilidadeInicialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogabilidadeInicialViewController.swift; sourceTree = "<group>"; };
 		4288EFDF22E1FA35003B4D17 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		42B6B40522F0ADFA008CFF3F /* PersonagensTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonagensTableViewCell.swift; sourceTree = "<group>"; };
 		42C76A1E22EA12350095C2F7 /* EntradaSalaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntradaSalaViewController.swift; sourceTree = "<group>"; };
 		42C76A2022EA127E0095C2F7 /* CriacaoSalaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CriacaoSalaViewController.swift; sourceTree = "<group>"; };
 		42EB23EF22E9CCBA00473C4E /* VisaoPersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisaoPersViewController.swift; sourceTree = "<group>"; };
+		42F793B222F3037900AAE4D5 /* LogJogUsuarioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogJogUsuarioViewController.swift; sourceTree = "<group>"; };
+		42F793B422F3039200AAE4D5 /* LogJogTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogJogTableViewCell.swift; sourceTree = "<group>"; };
+		42F793B622F3121D00AAE4D5 /* PersonagensMestreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonagensMestreTableViewCell.swift; sourceTree = "<group>"; };
+		42F793B822F3125400AAE4D5 /* PersonagensMestreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonagensMestreViewController.swift; sourceTree = "<group>"; };
+		42F793BA22F3199100AAE4D5 /* HistoricoMestreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricoMestreViewController.swift; sourceTree = "<group>"; };
+		42F793BC22F319E500AAE4D5 /* HistoricoMestreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricoMestreTableViewCell.swift; sourceTree = "<group>"; };
+		42F793BE22F325F800AAE4D5 /* MestrePrincipalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MestrePrincipalViewController.swift; sourceTree = "<group>"; };
+		42F793C022F3274800AAE4D5 /* MestrePrincipalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MestrePrincipalTableViewCell.swift; sourceTree = "<group>"; };
 		42FE169522E091E700B074F2 /* ChallengeFinalFoundations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChallengeFinalFoundations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42FE169822E091E700B074F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42FE169A22E091E700B074F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,15 +96,14 @@
 		42FE16A222E091E900B074F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42FE16A522E091E900B074F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		42FE16A722E091E900B074F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7B3565FD30BB3F56844726F3 /* Pods_ChallengeFinalFoundations.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChallengeFinalFoundations.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9035F3F5B13358B9977BA9F9 /* Pods-ChallengeFinalFoundations.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChallengeFinalFoundations.debug.xcconfig"; path = "Target Support Files/Pods-ChallengeFinalFoundations/Pods-ChallengeFinalFoundations.debug.xcconfig"; sourceTree = "<group>"; };
-		C831801B22EF396C00F86482 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ../../../Downloads/LoginViewController.swift; sourceTree = "<group>"; };
+		77541EAE98A46D997D423381 /* Pods-ChallengeFinalFoundations.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChallengeFinalFoundations.debug.xcconfig"; path = "Target Support Files/Pods-ChallengeFinalFoundations/Pods-ChallengeFinalFoundations.debug.xcconfig"; sourceTree = "<group>"; };
 		C86FC26A22E7423000EDD10B /* SalasHomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalasHomeTableViewCell.swift; sourceTree = "<group>"; };
 		C878845322EF29C200989A60 /* Favorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorites.swift; sourceTree = "<group>"; };
 		C878845522EF2C2500989A60 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
 		C8B9AD5222E9E59B006E7882 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 		C8D93DF422E5F03B008DE7E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ChallengeFinalFoundations/Base.lproj/Home.storyboard; sourceTree = "<group>"; };
-		D26269036320E6533EFC764B /* Pods-ChallengeFinalFoundations.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChallengeFinalFoundations.release.xcconfig"; path = "Target Support Files/Pods-ChallengeFinalFoundations/Pods-ChallengeFinalFoundations.release.xcconfig"; sourceTree = "<group>"; };
+		DC3C48F9C4079969B574467C /* Pods-ChallengeFinalFoundations.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChallengeFinalFoundations.release.xcconfig"; path = "Target Support Files/Pods-ChallengeFinalFoundations/Pods-ChallengeFinalFoundations.release.xcconfig"; sourceTree = "<group>"; };
+		E3923B3A3BDEE136E283C8B9 /* Pods_ChallengeFinalFoundations.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChallengeFinalFoundations.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF13A35B22E1FFFB002A4031 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		EFB5D6CC22E892B500441BCE /* CadastroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -81,7 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BC7681E3EFAAB31B1D9BCF5 /* Pods_ChallengeFinalFoundations.framework in Frameworks */,
+				48068EEE98CB43D4FB774911 /* Pods_ChallengeFinalFoundations.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,7 +140,7 @@
 				42FE169722E091E700B074F2 /* ChallengeFinalFoundations */,
 				42FE169622E091E700B074F2 /* Products */,
 				602A7FA498C54AD270F79C02 /* Pods */,
-				B8112FCDD0AD55BADFE1C738 /* Frameworks */,
+				5C0D2422D53819D90AD4B6F1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,15 +155,31 @@
 		42FE169722E091E700B074F2 /* ChallengeFinalFoundations */ = {
 			isa = PBXGroup;
 			children = (
-				C831801B22EF396C00F86482 /* LoginViewController.swift */,
+				42F793BA22F3199100AAE4D5 /* HistoricoMestreViewController.swift */,
+				424F2DF022F072F9006F092B /* LoginViewController.swift */,
 				4230082922E8947B00A86C27 /* SalasPerson.storyboard */,
 				42C76A2022EA127E0095C2F7 /* CriacaoSalaViewController.swift */,
 				42C76A1E22EA12350095C2F7 /* EntradaSalaViewController.swift */,
 				08023BD522E8A16C00355277 /* NPCsController */,
 				08E9276022E5E57F00D4EAA1 /* NPC.storyboard */,
+				4288B59622F20662005A2F66 /* Jogabilidade.storyboard */,
+				42F793C022F3274800AAE4D5 /* MestrePrincipalTableViewCell.swift */,
+				42F793BE22F325F800AAE4D5 /* MestrePrincipalViewController.swift */,
+				42F793BC22F319E500AAE4D5 /* HistoricoMestreTableViewCell.swift */,
+				42F793B622F3121D00AAE4D5 /* PersonagensMestreTableViewCell.swift */,
+				42F793B822F3125400AAE4D5 /* PersonagensMestreViewController.swift */,
+				42F793B222F3037900AAE4D5 /* LogJogUsuarioViewController.swift */,
+				42F793B422F3039200AAE4D5 /* LogJogTableViewCell.swift */,
+				4288B59C22F21503005A2F66 /* JogabilidadeInicialViewController.swift */,
+				4288B59922F20E75005A2F66 /* PersonagemJogoViewController.swift */,
+				4288B59722F20D72005A2F66 /* PersonagensJogoTableViewCell.swift */,
 				42FE169822E091E700B074F2 /* AppDelegate.swift */,
 				EF13A35B22E1FFFB002A4031 /* Login.storyboard */,
 				C8D93DF322E5F03B008DE7E6 /* Home.storyboard */,
+				4288B59222F1B29F005A2F66 /* SalasUserViewController.swift */,
+				4288B59422F1B2B6005A2F66 /* SalasUserTableViewCell.swift */,
+				42B6B40522F0ADFA008CFF3F /* PersonagensTableViewCell.swift */,
+				424C623D22F0AD4500A1E4F4 /* PersonagensViewController.swift */,
 				C878845522EF2C2500989A60 /* FavoritesViewController.swift */,
 				C878845322EF29C200989A60 /* Favorites.swift */,
 				C8B9AD5222E9E59B006E7882 /* UserProfile.swift */,
@@ -151,21 +199,21 @@
 			path = ChallengeFinalFoundations;
 			sourceTree = "<group>";
 		};
+		5C0D2422D53819D90AD4B6F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3923B3A3BDEE136E283C8B9 /* Pods_ChallengeFinalFoundations.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		602A7FA498C54AD270F79C02 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9035F3F5B13358B9977BA9F9 /* Pods-ChallengeFinalFoundations.debug.xcconfig */,
-				D26269036320E6533EFC764B /* Pods-ChallengeFinalFoundations.release.xcconfig */,
+				77541EAE98A46D997D423381 /* Pods-ChallengeFinalFoundations.debug.xcconfig */,
+				DC3C48F9C4079969B574467C /* Pods-ChallengeFinalFoundations.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		B8112FCDD0AD55BADFE1C738 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7B3565FD30BB3F56844726F3 /* Pods_ChallengeFinalFoundations.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,12 +223,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42FE16AA22E091E900B074F2 /* Build configuration list for PBXNativeTarget "ChallengeFinalFoundations" */;
 			buildPhases = (
-				4357AE8DDC2DF6A3B51E4B0F /* [CP] Check Pods Manifest.lock */,
+				1E9A5BD9AF7FE2B54E0AF40C /* [CP] Check Pods Manifest.lock */,
 				42FE169122E091E700B074F2 /* Sources */,
 				42FE169222E091E700B074F2 /* Frameworks */,
 				42FE169322E091E700B074F2 /* Resources */,
-				20C70167165A9D2DC4D2FB36 /* [CP] Embed Pods Frameworks */,
-				67870B4AC98D177E4981E08C /* [CP] Copy Pods Resources */,
+				A3818DEABF3BC6E9A8257F42 /* [CP] Embed Pods Frameworks */,
+				F43B0C83E674CE05E9367EEF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -229,6 +277,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4288B59B22F21198005A2F66 /* Jogabilidade.storyboard in Resources */,
 				4230082A22E8964900A86C27 /* SalasPerson.storyboard in Resources */,
 				EF13A35C22E1FFFB002A4031 /* Login.storyboard in Resources */,
 				08E9276122E5E57F00D4EAA1 /* NPC.storyboard in Resources */,
@@ -243,24 +292,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		20C70167165A9D2DC4D2FB36 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ChallengeFinalFoundations/Pods-ChallengeFinalFoundations-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ChallengeFinalFoundations/Pods-ChallengeFinalFoundations-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChallengeFinalFoundations/Pods-ChallengeFinalFoundations-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4357AE8DDC2DF6A3B51E4B0F /* [CP] Check Pods Manifest.lock */ = {
+		1E9A5BD9AF7FE2B54E0AF40C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -282,7 +314,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		67870B4AC98D177E4981E08C /* [CP] Copy Pods Resources */ = {
+		A3818DEABF3BC6E9A8257F42 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChallengeFinalFoundations/Pods-ChallengeFinalFoundations-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChallengeFinalFoundations/Pods-ChallengeFinalFoundations-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChallengeFinalFoundations/Pods-ChallengeFinalFoundations-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F43B0C83E674CE05E9367EEF /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -307,27 +356,42 @@
 			buildActionMask = 2147483647;
 			files = (
 				42FE169B22E091E700B074F2 /* ViewController.swift in Sources */,
+				42B6B40622F0ADFA008CFF3F /* PersonagensTableViewCell.swift in Sources */,
 				08023BDD22E8BA9A00355277 /* HistoriaViewController.swift in Sources */,
-				C831801C22EF396C00F86482 /* LoginViewController.swift in Sources */,
+				4288B59822F20D72005A2F66 /* PersonagensJogoTableViewCell.swift in Sources */,
 				42FE16A122E091E700B074F2 /* ChallengeFinalFoundations.xcdatamodeld in Sources */,
+				42F793BD22F319E500AAE4D5 /* HistoricoMestreTableViewCell.swift in Sources */,
+				42F793B322F3037900AAE4D5 /* LogJogUsuarioViewController.swift in Sources */,
 				C878845622EF2C2500989A60 /* FavoritesViewController.swift in Sources */,
+				42F793B722F3121D00AAE4D5 /* PersonagensMestreTableViewCell.swift in Sources */,
+				4288B59322F1B29F005A2F66 /* SalasUserViewController.swift in Sources */,
 				C8B9AD5322E9E59B006E7882 /* UserProfile.swift in Sources */,
+				4288B59522F1B2B6005A2F66 /* SalasUserTableViewCell.swift in Sources */,
+				42F793B922F3125400AAE4D5 /* PersonagensMestreViewController.swift in Sources */,
 				C878845422EF29C200989A60 /* Favorites.swift in Sources */,
 				42FE169922E091E700B074F2 /* AppDelegate.swift in Sources */,
+				4288B59D22F21503005A2F66 /* JogabilidadeInicialViewController.swift in Sources */,
 				C86FC26B22E7423000EDD10B /* SalasHomeTableViewCell.swift in Sources */,
 				EFB5D6CD22E892B500441BCE /* CadastroViewController.swift in Sources */,
 				08023BCC22E8990800355277 /* NPCViewController.swift in Sources */,
+				424F2DF122F072F9006F092B /* LoginViewController.swift in Sources */,
 				08023BD222E89BB800355277 /* InimigoViewController.swift in Sources */,
 				08023BD422E8A15000355277 /* npcNavigationController.swift in Sources */,
 				08023BDB22E8B81000355277 /* QuestViewController.swift in Sources */,
+				42F793BF22F325F800AAE4D5 /* MestrePrincipalViewController.swift in Sources */,
 				08023BDF22E9D82D00355277 /* MapaViewController.swift in Sources */,
+				42F793BB22F3199100AAE4D5 /* HistoricoMestreViewController.swift in Sources */,
 				08023BCE22E89AD900355277 /* NormalViewController.swift in Sources */,
+				42F793B522F3039200AAE4D5 /* LogJogTableViewCell.swift in Sources */,
 				42FE169922E091E700B074F2 /* AppDelegate.swift in Sources */,
 				42C76A1F22EA12350095C2F7 /* EntradaSalaViewController.swift in Sources */,
 				42C76A2122EA127E0095C2F7 /* CriacaoSalaViewController.swift in Sources */,
 				4230082622E8919B00A86C27 /* FichaPersonagemViewController.swift in Sources */,
+				42F793C122F3274800AAE4D5 /* MestrePrincipalTableViewCell.swift in Sources */,
+				4288B59A22F20E75005A2F66 /* PersonagemJogoViewController.swift in Sources */,
 				4230082422E8917300A86C27 /* SalaViewController.swift in Sources */,
 				42EB23F022E9CCBA00473C4E /* VisaoPersViewController.swift in Sources */,
+				424C623E22F0AD4500A1E4F4 /* PersonagensViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,11 +543,11 @@
 		};
 		42FE16AB22E091E900B074F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9035F3F5B13358B9977BA9F9 /* Pods-ChallengeFinalFoundations.debug.xcconfig */;
+			baseConfigurationReference = 77541EAE98A46D997D423381 /* Pods-ChallengeFinalFoundations.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8JS2C8RJ43;
+				DEVELOPMENT_TEAM = XJCVATZ953;
 				INFOPLIST_FILE = ChallengeFinalFoundations/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -498,11 +562,11 @@
 		};
 		42FE16AC22E091E900B074F2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D26269036320E6533EFC764B /* Pods-ChallengeFinalFoundations.release.xcconfig */;
+			baseConfigurationReference = DC3C48F9C4079969B574467C /* Pods-ChallengeFinalFoundations.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8JS2C8RJ43;
+				DEVELOPMENT_TEAM = XJCVATZ953;
 				INFOPLIST_FILE = ChallengeFinalFoundations/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

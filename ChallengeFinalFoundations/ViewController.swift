@@ -9,6 +9,41 @@
 import UIKit
 import Firebase
 
+//class Personagem {
+//    let Defesa: String
+//    let Equips: String
+//    let Habilidades: String
+//    let PtsManaAtual: String
+//    let Defesa: String
+//    let Defesa: String
+//    let Defesa: String
+//    let Defesa: String
+//    let Defesa: String
+//    let Defesa: String
+//    let Defesa: String
+//    let Defesa: String
+//    let Defesa: String
+//    let Defesa: String
+//    let Defesa: String
+//    let Defesa: String
+//    let Defesa: String
+//    let Defesa: String
+//    let Defesa: String
+//    let Defesa: String
+//    let Defesa: String
+//    let Defesa: String
+//    let Defesa: String
+//    
+//}
+class Post{
+    var caption: String
+    var photoUrl: String
+    
+    init(captionText: String, photoUrlString: String){
+        caption = captionText
+        photoUrl = photoUrlString
+    }
+}
 var ref = Database.database().reference()
 
 struct Home {
@@ -16,10 +51,13 @@ struct Home {
     var sala: String
     
 }
-
+var userID = ""
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
-    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        _ = salas[indexPath.row]
+        tableView.deselectRow(at: indexPath, animated: true)
+    }
     
     @IBOutlet weak var TableView: UITableView!
     //array das informacoes
@@ -50,7 +88,13 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        if Auth.auth().currentUser != nil {
+            userID = String(Auth.auth().currentUser!.uid)
+            print(userID)
+        } else {
+            // No user is signed in.
+            // ...
+        }
     
  //       Busca.delegate = self
         TableView.delegate = self

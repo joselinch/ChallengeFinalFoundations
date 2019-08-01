@@ -8,7 +8,6 @@
 
 import UIKit
 import Firebase
-
 class CadastroViewController: UIViewController {
     
     @IBOutlet weak var nomeUserNovo: UITextField!
@@ -34,7 +33,6 @@ class CadastroViewController: UIViewController {
             print ("deu ruim")
             
         } else {
-            
             Auth.auth().createUser(withEmail: emailUserNovo.text ?? "", password: senhaUserNovo.text ?? "") { result, error in
                 print("Feito")
                 if let error = error {
