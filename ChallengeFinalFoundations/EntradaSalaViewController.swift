@@ -16,6 +16,7 @@ import UIKit
 //        isMestre = isMestreText
 //    }
 //}
+var salaEstou = ""
 class DadosSalas {
     var nome: String
     var historia: String
@@ -32,7 +33,7 @@ class DadosSalas {
         quests = questsNome
     }
 }
-
+var nomeSalaEntrar = ""
 class EntradaSalaViewController: UIViewController {
     @IBOutlet weak var mapaPrincipal: UIImageView!
     @IBOutlet weak var textHistoriaSala: UITextView!
@@ -40,13 +41,12 @@ class EntradaSalaViewController: UIViewController {
     @IBOutlet weak var player2Sala: UIImageView!
     @IBOutlet weak var imageMestre: UIImageView!
     @IBOutlet weak var nomeSala: UILabel!
-    var nome = ""
+    
     var room: SalasFav?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        nome = room!.nomeSala
-        print(nome)
+        nomeSalaEntrar = room!.nomeSala
         loadSala()
         //        textHistoriaSala.text = room?.nomeSala
         // Do any additional setup after loading the view.
@@ -65,7 +65,7 @@ class EntradaSalaViewController: UIViewController {
         
     }
     func loadSala(){
-        ref.child("Salas").child(String(nome)).observe(.value) { (snapshot) in
+        ref.child("Salas").child(String(nomeSalaEntrar)).observe(.value) { (snapshot) in
             print("XYZ")
             if let dict = snapshot.value as? [String: Any]{
                 self.nomeSala.text = dict["nomeSala"] as? String

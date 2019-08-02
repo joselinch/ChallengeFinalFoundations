@@ -336,7 +336,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hd5-cO-U83" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1844.9275362318842" y="4508.7053571428569"/>
+            <point key="canvasLocation" x="2717" y="2306"/>
         </scene>
         <!--Visao Pers View Controller-->
         <scene sceneID="TEc-xz-ILb">
@@ -880,7 +880,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PQd-9h-zdj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1845" y="3769"/>
+            <point key="canvasLocation" x="878" y="3052"/>
         </scene>
     </scenes>
     <resources>

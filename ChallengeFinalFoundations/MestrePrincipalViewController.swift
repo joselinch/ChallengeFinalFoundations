@@ -42,12 +42,12 @@ class MestrePrincipalViewController: UIViewController, UITableViewDataSource, UI
         // Do any additional setup after loading the view.
     }
     @IBAction func alterarButton(_ sender: Any) {
-        ref.child("Salas").child("salaModelo").child("jogabilidade").child("descricao").setValue(self.descricaoPrincial.text)
+        ref.child("Salas").child(nomeSalaEntrar).child("jogabilidade").child("descricao").setValue(self.descricaoPrincial.text)
     }
     
     @IBOutlet weak var tableViewPrincipalMestre: UITableView!
     func loadResultados(){
-        ref.child("Salas").child("salaModelo").child("jogabilidade").child("resultados").observe(.childAdded) { (snapshot) in
+        ref.child("Salas").child(nomeSalaEntrar).child("jogabilidade").child("resultados").observe(.childAdded) { (snapshot) in
             print("XYZ")
             if let dict = snapshot.value as? [String: Any]{
                 let acaoText = dict["tipoAcao"] as! String

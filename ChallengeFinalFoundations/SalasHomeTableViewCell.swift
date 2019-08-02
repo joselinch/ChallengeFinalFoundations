@@ -12,6 +12,7 @@ class SalasHomeTableViewCell: UITableViewCell {
 
     @IBOutlet weak var NomeSala: UILabel!
     @IBOutlet weak var ImageSala: UIImageView!
+    @IBOutlet weak var mestreSala: UILabel!
     
 
 }

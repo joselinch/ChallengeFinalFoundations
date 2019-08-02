@@ -39,6 +39,7 @@
 		42F793BD22F319E500AAE4D5 /* HistoricoMestreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F793BC22F319E500AAE4D5 /* HistoricoMestreTableViewCell.swift */; };
 		42F793BF22F325F800AAE4D5 /* MestrePrincipalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F793BE22F325F800AAE4D5 /* MestrePrincipalViewController.swift */; };
 		42F793C122F3274800AAE4D5 /* MestrePrincipalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F793C022F3274800AAE4D5 /* MestrePrincipalTableViewCell.swift */; };
+		42F793C722F361B400AAE4D5 /* DiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F793C622F361B400AAE4D5 /* DiceViewController.swift */; };
 		42FE169922E091E700B074F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FE169822E091E700B074F2 /* AppDelegate.swift */; };
 		42FE169B22E091E700B074F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FE169A22E091E700B074F2 /* ViewController.swift */; };
 		42FE169E22E091E700B074F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42FE169C22E091E700B074F2 /* Main.storyboard */; };
@@ -88,6 +89,7 @@
 		42F793BC22F319E500AAE4D5 /* HistoricoMestreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricoMestreTableViewCell.swift; sourceTree = "<group>"; };
 		42F793BE22F325F800AAE4D5 /* MestrePrincipalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MestrePrincipalViewController.swift; sourceTree = "<group>"; };
 		42F793C022F3274800AAE4D5 /* MestrePrincipalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MestrePrincipalTableViewCell.swift; sourceTree = "<group>"; };
+		42F793C622F361B400AAE4D5 /* DiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceViewController.swift; sourceTree = "<group>"; };
 		42FE169522E091E700B074F2 /* ChallengeFinalFoundations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChallengeFinalFoundations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42FE169822E091E700B074F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42FE169A22E091E700B074F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -195,6 +197,7 @@
 				42FE16A722E091E900B074F2 /* Info.plist */,
 				42FE169F22E091E700B074F2 /* ChallengeFinalFoundations.xcdatamodeld */,
 				EFB5D6CC22E892B500441BCE /* CadastroViewController.swift */,
+				42F793C622F361B400AAE4D5 /* DiceViewController.swift */,
 			);
 			path = ChallengeFinalFoundations;
 			sourceTree = "<group>";
@@ -374,6 +377,7 @@
 				C86FC26B22E7423000EDD10B /* SalasHomeTableViewCell.swift in Sources */,
 				EFB5D6CD22E892B500441BCE /* CadastroViewController.swift in Sources */,
 				08023BCC22E8990800355277 /* NPCViewController.swift in Sources */,
+				42F793C722F361B400AAE4D5 /* DiceViewController.swift in Sources */,
 				424F2DF122F072F9006F092B /* LoginViewController.swift in Sources */,
 				08023BD222E89BB800355277 /* InimigoViewController.swift in Sources */,
 				08023BD422E8A15000355277 /* npcNavigationController.swift in Sources */,

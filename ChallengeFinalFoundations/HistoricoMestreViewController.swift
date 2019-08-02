@@ -43,7 +43,7 @@ class HistoricoMestreViewController: UIViewController, UITableViewDataSource, UI
         // Do any additional setup after loading the view.
     }
     func loadLogs() {
-        ref.child("Salas").child("salaModelo").child("jogabilidade").child("resultados").observe(.childAdded) { (snapshot) in
+        ref.child("Salas").child(nomeSalaEntrar).child("jogabilidade").child("resultados").observe(.childAdded) { (snapshot) in
             print("XYZ")
             if let dict = snapshot.value as? [String: Any]{
                 let acaoTextString = dict["tipoAcao"] as! String

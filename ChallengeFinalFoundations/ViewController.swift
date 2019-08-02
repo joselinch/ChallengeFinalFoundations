@@ -49,7 +49,6 @@ var ref = Database.database().reference()
 struct Home {
     var imagem: UIImage
     var sala: String
-    
 }
 var userID = ""
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
@@ -63,10 +62,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     //array das informacoes
     
     
-    let salas =  [
-        Home(imagem: #imageLiteral(resourceName: "dungeons-and-dragons-themed-mobile-game-launches-today_86c3"), sala: "Dungeons and Dragons"),
-        Home(imagem: #imageLiteral(resourceName: "1540307507309-DandD-Cover-Crop"), sala: "D&D Private"),
-    ]
+    var salas =  [Post]()
     
 
     
@@ -75,14 +71,11 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let Cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! SalasHomeTableViewCell
-        
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! SalasHomeTableViewCell
+        cell.NomeSala.text = salas[indexPath.row].caption
+        cell.mestreSala.text = salas[indexPath.row].photoUrl
         // fazer o array da celula e manter retorno Cell
-        
-        let salasTotal = salas [indexPath.row]
-        Cell.NomeSala.text = salasTotal.sala
-        Cell.ImageSala.image = salasTotal.imagem
-        return Cell
+        return cell
     
     }
 
@@ -92,19 +85,34 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             userID = String(Auth.auth().currentUser!.uid)
             print(userID)
         } else {
-            // No user is signed in.
-            // ...
+            print("Não conectado")
         }
     
  //       Busca.delegate = self
         TableView.delegate = self
         TableView.dataSource = self
+        TableView.reloadData()
+        loadSalas()
         
 //    }
     
     //func searchBarTextDidBeginEditing(_ searchBar: UISearchBar) {
        // searchActive = true;
     }
+        func loadSalas() {
+            ref.child("Usuarios").child("juze").child("salas").observe(.childAdded) { (snapshot) in
+                print("XYZ")
+                if let dict = snapshot.value as? [String: Any]{
+                    let captionText = dict["nome"] as! String
+                    let photoUrlString = dict["mestre"] as! String
+                    let sala = Post(captionText: captionText, photoUrlString: photoUrlString)
+                    self.salas.append(sala)
+                    DispatchQueue.main.async {
+                        self.TableView.reloadData()
+                    }
+                }
+            }
+        }
     
    // func searchBarTextDidEndEditing(_ searchBar: UISearchBar) {
    //     searchActive = false;

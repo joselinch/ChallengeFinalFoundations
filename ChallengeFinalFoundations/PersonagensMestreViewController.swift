@@ -32,7 +32,7 @@ class PersonagensMestreViewController: UIViewController, UITableViewDelegate, UI
     }
     @IBOutlet weak var tableViewPersonagensMestre: UITableView!
     func loadPersons() {
-        ref.child("Salas").child("salaModelo").child("personagens").observe(.childAdded) { (snapshot) in
+        ref.child("Salas").child(nomeSalaEntrar).child("personagens").observe(.childAdded) { (snapshot) in
             print("XYZ")
             if let dict = snapshot.value as? [String: Any]{
                 let captionText = dict["namePerson"] as! String
